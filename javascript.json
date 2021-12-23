@@ -23,7 +23,7 @@
 		],
 	"description": ""
 	 },
-	 "State2": {
+	 "EState": {
 		"prefix": "est",
 		"body": [
 	 		"useEffect(() => {",
@@ -32,7 +32,7 @@
 		],
 	"description": ""
 	 },
-	 "State3": {
+	 "tryCatch": {
 		"prefix": "tr",
 		"body": [
 			"try {",
