@@ -5,7 +5,7 @@
 	 		"<div className='$1'></div>",
 	 		"$2"
 		],
-	"description": "Log output to console"
+	"description": ""
 	 },
 	 "map function": {
 		"prefix": "map",
@@ -48,7 +48,7 @@
 		"body": [
 	 		"className='$1'"
 		],
-	"description": "Log output to console"
+	"description": ""
 	 }
 }
 
