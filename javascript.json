@@ -1,58 +1,37 @@
 {
-	"div": {
-		"prefix": "div",
-		"body": [
-	 		"<div className='$1'></div>",
-	 		"$2"
-		],
-	"description": ""
-	 },
-	 "map function": {
-		"prefix": "map",
-		"body": [
-	 		"{$1.map((item) =>(<div>{item.$2}</div>))}",
-	 	
-		],
-	"description": ""
-	 },
-	 "State": {
-		"prefix": "st",
-		"body": [
-	 		"const [$1 ,set$2]=useState('')",
-	 	
-		],
-	"description": ""
-	 },
-	 "EState": {
-		"prefix": "est",
-		"body": [
-	 		"useEffect(() => {",
-				 "  $1",
-				 "}, [])",
-		],
-	"description": ""
-	 },
-	 "tryCatch": {
-		"prefix": "tr",
-		"body": [
-			"try {",
-				  "$1",
-			 "} catch (err) {",
-				 "$2",
-			 "}"
-		],
-	"description": ""
-	 },
-	 "class": {
-		"prefix": "ccc",
-		"body": [
-	 		"className='$1'"
-		],
-	"description": ""
-	 }
+  "div": {
+    "prefix": "div",
+    "body": ["<div className='$1'></div>", "$2"],
+    "description": "Log output to console"
+  },
+  "map": {
+    "prefix": "map",
+    "body": ["{$1.map((item) =>(<div>{item.$2}</div>))}"],
+    "description": ""
+  },
+  "state": {
+    "prefix": "st",
+    "body": ["const [$1 ,set$2]=useState('')"],
+    "description": ""
+  },
+  "state2": {
+    "prefix": "est",
+    "body": ["useEffect(() => {", "  $1", "}, [])"],
+    "description": ""
+  },
+  "state3": {
+    "prefix": "tr",
+    "body": ["try {", "$1", "} catch (err) {", "$2", "}"],
+    "description": ""
+  },
+  "class": {
+    "prefix": "ccc",
+    "body": ["className='$1'"],
+    "description": "Log output to console"
+  },
+  "arrow": {
+    "prefix": "ar",
+    "body": ["const $1 = () => {", "  $2", "}"],
+    "description": "Log output to console"
+  }
 }
-
-
-
-
-
