@@ -2,7 +2,7 @@
   "div": {
     "prefix": "div",
     "body": ["<div className='$1'></div>", "$2"],
-    "description": "Log output to console"
+    "description": ""
   },
   "map": {
     "prefix": "map",
@@ -27,11 +27,11 @@
   "class": {
     "prefix": "ccc",
     "body": ["className='$1'"],
-    "description": "Log output to console"
+    "description": ""
   },
   "arrow": {
     "prefix": "ar",
     "body": ["const $1 = () => {", "  $2", "}"],
-    "description": "Log output to console"
+    "description": ""
   }
 }
