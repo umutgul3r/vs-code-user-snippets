@@ -32,6 +32,6 @@
   "arrow": {
     "prefix": "ar",
     "body": ["const $1 = () => {", "  $2", "}"],
-    "description": ""
+    "description": " "
   }
 }
